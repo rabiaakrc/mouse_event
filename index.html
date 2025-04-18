@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mouse Event</title>
+    <style>
+      body {
+        margin: 0;
+        background-color: darkblue;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: sans-serif;
+        flex-direction: row;
+        gap: 50px;
+      }
+
+      .kutu {
+        border: 1px solid white;
+        padding: 30px 50px;
+        text-align: center;
+      }
+
+      .sayi {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kutu">
+      <div>Mouse X Position(px)</div>
+      <div id="x" class="sayi">0</div>
+    </div>
+    <div class="kutu">
+      <div>Mouse Y Position(px)</div>
+      <div id="y" class="sayi">0</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
